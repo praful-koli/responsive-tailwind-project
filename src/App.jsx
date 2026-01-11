@@ -1,10 +1,10 @@
+import React from 'react'
+import Hero from './component/Hero/Hero'
 
-import Nav from './componetes/Nav'
 function App() {
-  
   return (
-    <div className='bg-black h-screen w-full overflow-hidden'>
-      <Nav />
+    <div className='overflow-x-hidden'>
+        <Hero />
     </div>
   )
 }
