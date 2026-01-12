@@ -3,9 +3,9 @@ import Nav from '../NavBar/Nav'
 import image from '../../assets/strawberry.png'
 function Hero() {
   return (
-    <div className=' relative w-full sm:h-screen  bg-[#d22715] text-white'>
+    <div className=' relative w-full  bg-[#d22715] text-white sm:h-screen '>
         <Nav />
-        <div className="flex flex-col justify-center  items-center mt-10 py-8 sm:px-20 sm:mt-0 sm:py-0  sm:flex-row sm:gap-30 ">
+        <div className="flex flex-col justify-center items-center    mt-10 py-8 sm:px-20 sm:mt-0 sm:py-0 sm:flex-row sm:gap-30 ">
 
            <div className="textBox flex flex-col px-8 items-start gap-5  sm:w-90">
             <h1 className='text-lg sm:text-2xl '>01__________</h1>
